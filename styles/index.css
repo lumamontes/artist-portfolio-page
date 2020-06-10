@@ -1,0 +1,40 @@
+
+.title-txt {
+    margin: 50px 100px 0 100px;
+    width: 30%;
+
+}
+
+header h1 {
+    color: var(--marron);
+    font-size: 3em;
+}
+
+header ul{
+    display: flex;
+}
+
+.title-txt ul li {
+    padding: 6px;
+    padding-left: 1px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+section {
+    align-items: center;
+    width: 90%;
+    text-align: center;
+    margin: 10px auto;
+
+}
+section figure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 8px;
+}
+section img {
+    margin: 0 auto;
+    width: 270px
+}

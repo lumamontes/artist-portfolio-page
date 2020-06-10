@@ -1,0 +1,28 @@
+body {
+    background-color: #000000ee;
+    color: var(--branquinho);
+}
+article {
+    margin: 10px auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+article img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid var(--azul);
+}
+
+article p {
+    font-size: 20px;
+    line-height: 22px;
+    padding: 70px;
+    font-weight: 300;
+}
