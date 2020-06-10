@@ -1,0 +1,43 @@
+
+.title-txt {
+    margin: 50px 100px 0 100px;
+    width: 30%;
+
+}
+.social-media {
+    width: 80%;
+    margin: 0 auto;
+}
+ #ig {
+
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.3);
+    bottom: 40px;
+    border-radius: 100%;
+}
+
+ #ig{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 200ms;
+}
+
+
+i {
+    font-size: 50px;
+}
+
+ #ig:hover{
+        background-color: var(--roxo);
+    opacity: 95%;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
