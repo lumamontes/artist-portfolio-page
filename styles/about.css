@@ -8,6 +8,10 @@ article {
     display: flex;
     flex-direction: row;
 }
+header {
+    background-color: white;
+    color: var(--marrom);
+}
 
 .reverse {
     flex-direction: row-reverse;

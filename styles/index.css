@@ -1,17 +1,23 @@
 
 .title-txt {
-    margin: 50px 100px 0 100px;
+    margin: 30px auto;
     width: 30%;
+    text-align: center;
 
 }
 
 header h1 {
-    color: var(--marron);
+    color: var(--roxo);
     font-size: 3em;
 }
 
 header ul{
     display: flex;
+    margin: 0px auto;
+
+    text-align: center;
+    justify-content: center;
+
 }
 
 .title-txt ul li {
