@@ -1,11 +1,36 @@
-
+header {
+    height: 100vh;
+}
 .title-txt {
-    margin: 30px auto;
-    width: 30%;
+    margin: 30vh auto;
+    width: 40%;
     text-align: center;
+    color: white;
 
 }
-
+.title-img {
+    text-align: center;
+    margin: 20px auto;
+    width: 60%;
+}
+.title-img img {
+    width: 59%;
+    margin: auto;
+}
+.buttons {
+    margin-left: auto;
+    width: 59%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.bolinha {
+    width: 20px;
+    height: 20px;
+    background-color: var(--rosinha);
+    border-radius: 50%;
+    margin-left: 6px;
+}
 header h1 {
     color: var(--roxo);
     font-size: 3em;
@@ -26,6 +51,10 @@ header ul{
     font-weight: 600;
     font-size: 14px;
 }
+.hero {
+    display: flex;
+    flex-direction: row;
+}
 
 section {
     align-items: center;
@@ -34,13 +63,20 @@ section {
     margin: 10px auto;
 
 }
-section figure {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    gap: 8px;
-}
+
 section img {
     margin: 0 auto;
     width: 270px
+}
+
+
+footer {
+    text-align: center;
+    padding-bottom: 3px;
+    border-bottom: 1px solid var(--rosinha);
+    font-size: 14px;
+    font-weight: 300;
+    background-color: var(--marrom);
+    color: var(--branquinho);
+    
 }

@@ -24,7 +24,7 @@ h2 {
     --branquinho: #f3f1f1;
     --azul: #dbdef5;
     --roxo: #2e2259;
-    --marrom: #1f1500;
+    --marrom: #110b00d2;
 }
 
 .title {
@@ -41,6 +41,8 @@ header {
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
+    background-color: black;
+
 }
 
 header nav {
