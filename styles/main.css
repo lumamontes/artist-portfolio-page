@@ -12,13 +12,13 @@ ul li {
     list-style-type: none;
 }
 
-h1,h3,h4,h5,h6{
+/* h1,h3,h4,h5,h6{
     color: var(--rosinha);
 }
 
 h2 {
     color: var(--roxo);
-}
+} */
 :root {
     --rosinha: #ec98a7;
     --branquinho: #f3f1f1;
@@ -40,17 +40,29 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    margin-bottom: 50px;
-    background-color: black;
-
 }
 
-header nav {
-    background-color: var(--marrom);
+.nav {
+
+    background-color: rgba(0, 0, 0, 0.602);
+    background-image: url('../img/background2.png');
+    background-position: 2px -70px;
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+    
     padding: 30px;
     color: var(--branquinho);
-    border-bottom: 4px solid var(--azul);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
 }   
+
+.nav ul{
+    flex: 1;
+    justify-content: flex-end;
+
+}
 
 header nav ul {
 display: flex;
@@ -59,17 +71,20 @@ flex-direction: row;
 
 header nav ul li{
     font-size: 20px;
-    font-weight: 400;
-    padding-bottom: 5px;
     margin: 0 20px;
-    font-size: 600;   
-    border: none;
+    
+    
     cursor: pointer;
     transform: 400ms;
+    padding: 10px;
+}
+
+header nav ul li a {
+
 }
 header nav ul li:hover{
-    opacity: 90%;
-    color: #dbdef5;
+    opacity: 80%;
+    background-color: #dbdef53b;
 }
 
 footer {
