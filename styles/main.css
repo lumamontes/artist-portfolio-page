@@ -12,6 +12,24 @@ ul li {
     list-style-type: none;
 }
 
+.button {
+    width: 150px;
+    height: 40px;
+   
+    font-size: 14px;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    outline: none;
+   
+    border-radius: 8px;
+    border: none;
+
+}
+
 /* h1,h3,h4,h5,h6{
     color: var(--rosinha);
 }
@@ -40,6 +58,7 @@ body {
 header {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .nav {
@@ -50,17 +69,21 @@ header {
     background-repeat: no-repeat;
     background-blend-mode: color;
     
-    padding: 30px;
     color: var(--branquinho);
+    
+    padding: 20px;
+    margin: 0 auto;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 auto;
+    
 }   
 
 .nav ul{
     flex: 1;
     justify-content: flex-end;
+    width: 100%;
 
 }
 
@@ -79,9 +102,7 @@ header nav ul li{
     padding: 10px;
 }
 
-header nav ul li a {
 
-}
 header nav ul li:hover{
     opacity: 80%;
     background-color: #dbdef53b;
