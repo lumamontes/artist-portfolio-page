@@ -60,7 +60,6 @@ h2 {
 
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #fff;
 }
 
 header {
@@ -118,16 +117,16 @@ header nav ul li:hover{
 }
 
 footer {
-    background-color: #000000;
+    background-color: #111111ed;
     color: rgba(255, 255, 255, 0.753);
-
     text-align: center;
-    padding: 3px;
-    height: 10vh;
+    
+    padding: 5px;
     font-size: 14px;
     font-weight: 200;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
+    
 }
