@@ -15,6 +15,10 @@
     .title-txt ul {
         display: flex;
         flex-direction: column;
+
+    }
+    .title-txt ul {
+        padding-top: 15px;
     }
         
         header nav ul li{
