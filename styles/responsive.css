@@ -29,4 +29,7 @@
             padding: 1px;
         }
         
+        footer{
+            display: none;
+        }
 }
