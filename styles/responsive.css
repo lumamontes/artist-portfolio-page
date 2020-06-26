@@ -10,15 +10,16 @@
         flex-direction: row;
         
     }   
+
+    .title-txt {
+        margin-top: 0;
+    }
     
 
     .title-txt ul {
         display: flex;
         flex-direction: column;
 
-    }
-    .title-txt ul {
-        padding-top: 15px;
     }
         
         header nav ul li{
@@ -29,7 +30,7 @@
             padding: 1px;
         }
         
-        footer{
+        /* footer{
             display: none;
-        }
+        } */
 }
