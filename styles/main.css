@@ -122,9 +122,8 @@ footer {
     color: rgba(255, 255, 255, 0.753);
 
     text-align: center;
-
     padding: 3px;
-    
+    height: 10vh;
     font-size: 14px;
     font-weight: 200;
     position: absolute;
