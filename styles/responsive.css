@@ -10,14 +10,14 @@
     }   
     
 
-    header nav ul {
-        }
+    .title-txt ul {
+        display: flex;
+        flex-direction: column;
+    }
         
         header nav ul li{
             font-size: 15px;
-            margin: 0 10px;
-            
-            
+            margin: 0 10px;            
             cursor: pointer;
             transform: 400ms;
             padding: 1px;
