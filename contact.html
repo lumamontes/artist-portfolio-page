@@ -9,33 +9,75 @@
     <meta charset="description" content="Portfolio page about brazilian artist Luana Góes">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
         rel="stylesheet">
-        <script src="https://kit.fontawesome.com/ac4c6e2b8b.js" crossorigin="anonymous"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ac4c6e2b8b.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luana Góes</title>
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/responsive.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <ul>
-                <li> <a href="index.html">home</a></li>
-                <li> <a href="about.html">about</a></li>
-                <li> <a href="contact.html">contact</a> </li>
+            <ul class="nav">
+
+                <li> <a href="./index.html">home</a></li>
+                <ul>
+                    <li><a href="./portfolio.html" id="port">portfolio</a></li>
+                    <li> <a href="#" id="about">about</a> </li>
+                    <li> <a href="#" id="contact">contact</a> </li>
+                </ul>
             </ul>
         </nav>
-        <div class="title-txt">
-            <h1>Luana Góes</h1>
-            <h2>Social Media</h2>
-        </div>
     </header>
-    <section class="social-media">
-        <div id="ig">
-            <i class="fab fa-instagram-square "></i>
-        </div>
-    </section>
-   
+
+    <main>
+        <section class="social">
+            <div class="txt">
+                <h1>Social Media</h1>
+                <h1 class="title">Lorem ipsum, dolor </h1>
+            </div>
+            <div id="pixlee_container"></div>
+            <div id="pixlee_container"></div><script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'64dbZwO0Hf8Fh2jXVB-U'});Pixlee.addSimpleWidget({widgetId:'28242'});};</script><script src="//instafeed.assets.pxlecdn.com/assets/pixlee_widget_1_0_0.js"></script>
+            <nav>
+                <a href="" class="button">Instagram <i class="fab fa-instagram-square "></i>
+                </a>
+
+            </nav>
+        </section>
+
+        <section class="email">
+            <form action="">
+                <h1>Email</h1>
+                <legend>
+                    <p class="title">lorem</p>
+                </legend>
+                <div class="field">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" required>
+                </div>
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" required>
+
+                </div>
+                <div class="field">
+                    <label for="message">?</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                    <a href="" class="button">Send</a>
+                </div>
+
+            </form>
+
+
+
+
+            </form>
+        </section>
+    </main>
+
     <footer>
         Developted by <a href="https://github.com/lumamontes">Luma</a>
     </footer>

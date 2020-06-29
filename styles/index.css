@@ -1,8 +1,6 @@
 body {
     background-color: #111111ed;
-
 }
-
 
 main {
     background-color: #000000ee;
@@ -11,12 +9,11 @@ main {
     height: 90vh;
     position: relative;
 }
+
 h1 {
     color: var(--branquinho);
     font-size: 100%;
 }
-
-
 
 .title-txt {
     margin: 20px auto;
@@ -24,17 +21,19 @@ h1 {
     text-align: center;
     color: white;
     font-size: 3em;
-
 }
+
 .title-img {
     text-align: center;
     margin: 20px auto;
     width: 50%;
 }
+
 .title-img img {
     width: 60%;
     margin: auto;
 }
+
 .buttons {
     margin-left: auto;
     width: 59%;

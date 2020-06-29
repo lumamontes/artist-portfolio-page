@@ -21,6 +21,10 @@ ul li {
 }
 
 .button {
+    background-color: #ec98a7;
+    color: black;
+    font-weight: bold;
+
     width: 150px;
     height: 40px;
    
@@ -63,6 +67,7 @@ body {
 
 }
 
+/* HEADER - NAV  */
 header {
     display: flex;
     flex-direction: column;
@@ -116,6 +121,8 @@ header nav ul li:hover{
     opacity: 80%;
     background-color: #dbdef53b;
 }
+
+/* FIXED FOOTER */
 
 footer {
     background-color: #111111ed;

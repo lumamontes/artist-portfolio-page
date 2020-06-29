@@ -1,38 +1,75 @@
-
-.title-txt {
-    margin: 50px 100px 0 100px;
-    width: 30%;
-
-}
-.social-media {
-    width: 80%;
-    margin: 0 auto;
-}
- #ig {
-
-    width: 70px;
-    height: 70px;
-    cursor: pointer;
-    background: rgba(0, 0, 0, 0.3);
-    bottom: 40px;
-    border-radius: 100%;
-}
-
- #ig{
+main {
+    width: 100%;
+    height: 90vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 200ms;
+    
+}
+
+main section.social {
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+    background-color: #ffffff00;
+}
+.txt {
+    margin: 5vh;
+}
+.button {
+    display: flex;
+    margin: 5px auto;
+
+}
+main section.email {
+    width: 50%;
+    /* background-color: #000000ee; */
+
+}    
+
+form legend {
+    margin-bottom: 3vh;
+}
+form {
+    /* background-color: black; */
+    color: var(--rosinha);
+
+    border-radius: 7px;
+    padding: 64px;
+
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+}
+
+.field, legend, form h1{
+    display: flex;
+    flex-direction: column;
+    margin: 5px auto;
 }
 
 
-i {
-    font-size: 50px;
+form input {
+    max-width: 300px;
+    
+    padding: 5px;
+    
+    border-radius: 8px;
+    border: 1px solid rgba(121, 119, 119, 0.267);
+    
+    outline: none;
+    
+    background-color: transparent;
 }
 
- #ig:hover{
-        background-color: var(--roxo);
-    opacity: 95%;
+form textarea {
+    max-width: 200px;
+
+    outline: none;
+
+
 }
 
 footer {

@@ -29,8 +29,10 @@
             transform: 400ms;
             padding: 1px;
         }
-        
-        /* footer{
-            display: none;
-        } */
+body main {
+    display: flex;
+    flex-direction: column;
+}
+
+    
 }
